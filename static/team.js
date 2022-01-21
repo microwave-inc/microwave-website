@@ -24,9 +24,9 @@ const owners = [
     {
         "id": "384049625511755777",
         "post": "Major Github contributer",
-        "GHRL": "https://github.com/yapudjus",
-        "YTURL": "https://youtube.com/uwu%20this%20exists"
-    }
+        "GHURL": "https://github.com/yapudjus",
+        "YTURL": "https://youtube.com/uwu%20this%20exists",
+    },
 ]
 
 for (let indexOne = 0; indexOne < owners.length; indexOne++) {
