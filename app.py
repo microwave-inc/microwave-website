@@ -10,3 +10,7 @@ def index():
 @app.route('/team')
 def team():
     return render_template('team.html')
+
+@app.route('/undefined')
+def error404():
+    return render_template('404.html')
