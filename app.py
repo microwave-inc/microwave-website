@@ -23,6 +23,10 @@ def error403():
 def error500():
     return render_template('500.html')
 
+@app.route('/408')
+def error408():
+    return render_template('408.html')
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
@@ -34,3 +38,7 @@ def page_not_allowed(e):
 @app.errorhandler(500)
 def page_not_allowed(e):
     return render_template('500.html'), 500
+
+@app.errorhandler(408)
+def page_not_allowed(e):
+    return render_template('408.html'), 408
