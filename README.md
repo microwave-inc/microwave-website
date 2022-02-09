@@ -4,10 +4,12 @@ Welcome user! this is the repo for my [website (click here)](https://microwavebo
 
 # Our Team
 The main developer - [galaxine~senpai](https://github.com/galaxine-senpai), Discord: gawaxine#1015
+
 The second developer - [yapudjus](https://github.com/yapudjus) NOTE: Currently on an idefinite leave of absence
 
 # Our To-Do List
 We plan in the near future to get it working as a dashboard so that the average user can do everything they need from the web.
+
 We have a ton more plans but cannot disclose them as we are not sure if we will do them
 
 # Credits
