@@ -1,7 +1,5 @@
 from flask import Flask
 from flask import render_template
-import random
-randomport = random.randint(2000, 9000)
 
 app = Flask(__name__)
 
