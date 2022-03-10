@@ -13,4 +13,5 @@ We plan in the near future to get it working as a dashboard so that the average 
 We have a ton more plans but cannot disclose them as we are not sure if we will do them
 
 # Credits
-Credits to [free front end](https://freefrontend.com) for the error pages (lyric404.html is custom made but uses CSS from free front end)
+Credits to [free front end](https://freefrontend.com) for the error pages!
+Credit to awesomenessZ on discord for pointing out the bug on the [/team](https://microwavebot.tech/team) page
