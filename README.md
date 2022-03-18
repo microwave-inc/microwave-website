@@ -14,4 +14,5 @@ We have a ton more plans but cannot disclose them as we are not sure if we will 
 
 # Credits
 Credits to [free front end](https://freefrontend.com) for the error pages!
-Credit to awesomenessZ on discord for pointing out the bug on the [/team](https://microwavebot.tech/team) page
+Credit to awesomenessZ on discord for pointing out the bug on the [team page](https://microwavebot.tech/team)
+Credit to Lyric giving permmision to be on the [404 page](https://microwavebot.tech/lyric) (and for being a cool human)

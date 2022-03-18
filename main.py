@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import render_template
-from flask import Response
 import random
 randomport = random.randint(2000, 9000)
 
@@ -30,10 +29,6 @@ def error500():
 def error408():
     return render_template('/errors/408.html')
 
-@app.route('/lyric')
-def lyric():
-  return render_template('/errors/lyric404.html')
-
 @app.route('/about')
 def about():
   return render_template('portfolio.html')
@@ -45,26 +40,10 @@ def robots():
 @app.route('/logo.png')
 def logo():
   return app.send_static_file('bot.png')
-
-@app.route('/school/basic')
-def basic():
-  return render_template('/school/basic.html')
-
-@app.route('/school/page2')
-def page2():
-  return render_template('/school/page2.html')
-
-@app.route('/school/rock_climbing')
-def rock_climbing():
-  return render_template('/school/rock.html')
-
+  
 @app.route('/rock.png')
 def rock_photo():
   return app.send_static_file('rock.png')
-
-@app.route('/school/assesment')
-def assesment():
-  return render_template('/school/assesment.html')
 
 @app.errorhandler(404)
 def page_not_found(e):
