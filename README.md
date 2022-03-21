@@ -7,6 +7,8 @@ The main developer - [galaxine~senpai](https://github.com/galaxine-senpai), Disc
 
 The second developer - [yapudjus](https://github.com/yapudjus) NOTE: Currently on an idefinite leave of absence
 
+The third developer - [Allybe](https://github.com/Allybe)
+
 # Our To-Do List
 We plan in the near future to get it working as a dashboard so that the average user can do everything they need from the web.
 
