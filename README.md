@@ -5,7 +5,7 @@ Welcome user! this is the repo for my [website (click here)](https://microwavebo
 # Our Team
 The main developer - [galaxine~senpai](https://github.com/galaxine-senpai), Discord: gawaxine#1015
 
-The second developer - [yapudjus](https://github.com/yapudjus) NOTE: Currently on an idefinite leave of absence
+The second developer - [yapudjus](https://github.com/yapudjus) NOTE: finally back with copilot access
 
 The third developer - [Allybe](https://github.com/Allybe)
 
