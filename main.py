@@ -16,7 +16,7 @@ def team():
 
 @app.route('/404')
 def error404():
-    return render_template('/errors/lyric404.html')
+    return render_template('/errors/404.html')
 
 @app.route('/403')
 def error403():
@@ -44,7 +44,7 @@ def rock_photo():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('/errors/lyric404.html'), 404
+    return render_template('/errors/404.html'), 404
 
 @app.errorhandler(403)
 def page_not_authorized(e):
