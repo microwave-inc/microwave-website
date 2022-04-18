@@ -6,20 +6,32 @@ const boxOwners = document.getElementById("owners_list");
 you can use this api but if you need to create custome api check:
  https://github.com/Hadi-Koubeissi/discord-web-api
 */
-const API = "https://w.holyunblocker.church/main/https://discord-web-api.glitch.me/discord/user/";
+const API = "https://discord-api.microwavebot.tech/discord/user/";
 
 const owners = [
     {
         "id": "398959101322854400",
-        "post": "Bot Owner & Dev",
+        "post": "Founder & Head of Bot Development",
     },
     {
         "id": "597478415481700377",
-        "post": "Bot Co-Owner",
+        "post": "Co-Founder",
     },
     {
         "id": "384049625511755777",
-        "post": "Major Github contributer/Developer",
+        "post": "Bot and Website Developer",
+    },
+    {
+        "id": "552104643446964225",
+        "post": "Assistant Head of Bot Development",
+    },
+    {
+        "id": "877750846400659527",
+        "post": "Head of Website Development, Bot Developer",
+    },
+    {
+        "id": "895321199675080704",
+        "post": "Bot and Website Developer",
     },
 ]
 
