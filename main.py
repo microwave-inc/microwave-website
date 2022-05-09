@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template
+from flask import abort
 
 import random
 randomport = random.randint(2000, 9000)
@@ -57,6 +58,10 @@ def server_error(e):
 @app.errorhandler(408)
 def server_timeout(e):
     return render_template('/errors/408.html'), 408
+
+@app.route('/hidden')
+def hidden():
+    return render_template('/errors/joke.html')
 
 #This is for testing only
 app.run(host='localhost', port=8080, debug=True)
