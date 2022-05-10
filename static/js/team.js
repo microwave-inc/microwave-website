@@ -1,13 +1,13 @@
 const boxOwners = document.getElementById("owners_list");
 const API = "https://discord-api.microwavebot.tech/discord/user/";
 const owners = [
-  { id: "398959101322854400", post: "Founder & Head of Bot Development" },
-  { id: "597478415481700377", post: "Co-Founder" },
-  { id: "384049625511755777", post: "Bot and Website Developer" },
-  { id: "552104643446964225", post: "Assistant Head of Bot Development" },
-  { id: "877750846400659527", post: "Head of Website Development, Bot Developer"},
-  { id: "895321199675080704", post: "Bot and Website Developer" },
-  { id: "648159551966937088", post: "Head Designer" },
+  { id: "398959101322854400", post: "Founder & Head of Bot Development" }, //Ayden
+  { id: "597478415481700377", post: "Co-Founder" }, //child chewer
+  { id: "384049625511755777", post: "Bot and Website Developer" }, //yapudjus
+  { id: "552104643446964225", post: "Assistant Head of Bot Development" }, //Fonta22
+  { id: "877750846400659527", post: "Head of Website Development, Bot Developer"}, //Allison
+  { id: "895321199675080704", post: "Bot and Website Developer" }, //Sopy
+  { id: "648159551966937088", post: "Head Designer" }, //polbbo_
 ];
 for (let indexOne = 0; indexOne < owners.length; indexOne++) {
   const elementOwners = owners[indexOne];
