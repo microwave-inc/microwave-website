@@ -1,13 +1,3 @@
 /__pycache__
 /static/robots.txt
-/static/supiefog.png
-/static/supiemist.png
-/static/lyric.jpg
-/templates/school/
-/templates/errors/lyric404.html
-/templates/renders.html
-/templates/supie.html
-/templates/supiemistblack.html
-/templates/supiepurpmist.html
-/templates/school/
 .vscode
