@@ -16,7 +16,7 @@ for (let indexOne = 0; indexOne < owners.length; indexOne++) {
       setTimeout(function () {
         document
           .querySelectorAll(".banner img")
-          .forEach((imgs) => (imgs.src = url + "../assets/bot.png"));
+          .forEach((imgs) => (imgs.src = url + "../static/img/bot.png"));
       }, 1000);
     }
     const ownerList =
