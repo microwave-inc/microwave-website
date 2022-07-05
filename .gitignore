@@ -1,2 +1,7 @@
 /__pycache__
+<<<<<<< HEAD
 .vscode
+=======
+/static/robots.txt
+.vscode
+>>>>>>> 94c47e1437ad0eee7ef5b6fe802bf92b32491d1c
